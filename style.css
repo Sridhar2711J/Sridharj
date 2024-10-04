@@ -568,6 +568,7 @@ input[type="tel"]{
 
     .about{
         flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .about-img{
@@ -575,7 +576,7 @@ input[type="tel"]{
     }
 
     .about-content{
-       margin-top: -100px;
+    
     }
 
     .about-content h3{
