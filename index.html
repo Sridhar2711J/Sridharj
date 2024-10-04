@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./images/60111.jpg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("7kDrqhT1pnTvdYFHQ");
+      })();
+    </script>
+
+</head>
+<body>
+    
+
+
+
+    <header class="header">
+        <a href="#" class="logo">SRIDHAR <spa>J</spa></a>
+  
+        <img src="./images/icons8-menu-100 (1).png" alt="" class='bx bx-menu' onclick="minibar()" id="menu-icon">
+
+        <div class="min" >
+                 <a href="#home" onclick="minfun(event)">Home</a>
+                <a href="#about" onclick="minfun(event)">About</a>
+                <a href="#skills" onclick="minfun(event)">Skills</a>
+                <a href="#services" onclick="minfun(event)">Service</a>
+                <a href="#project" onclick="minfun(event)">Project</a>
+                <a href="#contact" onclick="minfun(event)">Contact</a>   
+
+        </div>
+
+         <nav class="navbar">
+            <a href="#home" class="navlink active">Home</a>
+            <a href="#about" class="navlink">About</a>
+            <a href="#skills" class="navlink">Skills</a>
+            <a href="#services" class="navlink">Services</a>
+            <a href="#project" class="navlink">Project</a>
+            <a href="#contact" class="navlink">Contact</a>
+        </nav>   
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me </h3>
+            <h1>Sridhar J</h1>
+            <h3>And I'm a <span>Full Stack Developer</span></h3>
+            <p>I'm a Full Stack Developer with expertise in both front-end and back-end technologies. My portfolio showcases a variety of projects that highlight my skills in building responsive web applications</p>
+            <div class="social-media">
+                <!-- <a href="#"><i class='bx bxl-facebook'></i></a> -->
+                <a href="https://chat.whatsapp.com/L429cxq4igtHtxExwcr822"><img src="./images/icons8-whatsapp-100.png" alt=""></a>
+                <a href="https://www.instagram.com/j_s_r_i_d_h_a_r/"><img src="/images/icons8-instagram-100.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/sridhar-jayaraman/"><img src="./images/icons8-linkedin-100.png" alt=""></a>
+            </div>
+            <a href="./images/Sridhar Resume.pdf" download class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./images/WhatsApp Image 2024-10-04 at 10.11.09 AM.jpeg" alt="#">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/WhatsApp Image 2024-10-04 at 10.11.09 AM.jpeg" alt="#">
+        </div>
+
+        <div class="about-content">
+            <div class="heading">About <span>Me</span></div>
+            <h3>Full Stack Developer</h3>
+            <P>As a final-year Computer Science student,I have developed a strong foundation in Java programming and full-stack development. 
+                 Recently, I completed a one-month internship where I built an e-commerce website, gaining valuable hands-on experience. 
+                I’m excited about leveraging technology to create innovative solutions and eager to apply my skills in future projects.</P>
+        <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+          <div class="skills-contents">
+            <div class="skills-box">
+                <img src="./images/icons8-html-480.png" alt="">
+                <h4>HTML</h4>
+            </div>
+            <div class="skills-box">
+                <img src="./images/icons8-css-480.png" alt="">
+                <h4>CSS</h4>
+            </div>
+            <div class="skills-box">
+                <img src="./images/icons8-js-480.png" alt="">
+                <h4>JavaScript</h4>
+            </div>
+            <div class="skills-box">
+                <img src="./images/icons8-java-480.png" alt="">
+                <h4>Java</h4>
+            </div>
+            <div class="skills-box">
+                <img src="./images/icons8-mysql-480.png" alt="">
+                <h4>MySql</h4>
+            </div>
+            <div class="skills-box">
+                <img src="./images/icons8-word-480.png" alt="">
+                <h4>Word</h4>
+            </div>
+            <div class="skills-box">
+                <img src="./images/icons8-excel-480.png" alt="">
+                <h4>Excel</h4>
+            </div>
+            <div class="skills-box">
+                <img src="./images/icons8-microsoft-powerpoint-2019-480.png" alt="">
+                <h4>PowerPoint</h4>
+            </div>
+            <div class="skills-box">
+                <img src="./images/icons8-adobe-photoshop-480.png" alt="">
+                <h4>Photoshop</h4>
+            </div>
+          </div>
+
+    </section>
+
+      <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <img src="./images/icons8-frontend-100.png" alt="">
+                <h3>Front-End</h3>
+                <p>I specialize in building responsive and dynamic websites that are fast, efficient, and compatible across all devices. Using modern frontend technologies, I ensure clean and scalable code for smooth performance and an engaging user experience.</p>
+               <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <img src="./images/icons8-backend-100.png" alt="">
+                <h3>Back-End</h3>
+                <p>I provide robust backend solutions to power your web applications, ensuring scalability, security, and smooth performance. With expertise in server-side technologies, databases, and APIs, I deliver clean, maintainable code to support seamless functionality.</p>
+               <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <img src="./images/icons8-database-100.png" alt="">               
+                <h3>Database</h3>
+                <p>I provide expert database solutions, from design and development to optimization and management. Specializing in building efficient, scalable databases that ensure secure and high-performance data handling for your applications.</p>
+               <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+        </div>
+      </section>
+
+      <section class="project" id="project">
+        <h2 class="heading">My <span>Project</span></h2>
+        <div class="project-content">
+            <div class="project-box">
+                <img src="./images/web-cms-student-portal-main.jpg" alt="">
+                <div class="overlay">
+                    <h3>Student Login Page</h3>
+                    <p>The Student Username and Password it check is right or wrong</p>
+                </div>
+                
+            </div>
+
+            <div class="project-box">
+                <img src="./images/1_SwFB1o_k1LGprN-XRUZQ8w.webp" alt="">
+                <div class="overlay">
+                    <h3>E Commerce Demo</h3>
+                    <p>Product images and product details with add cate</p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./images/netflix-logo.webp" alt="">
+                <div class="overlay">
+                    <h3>Netflix Demo</h3>
+                    <p>Netflix home page with the movies images and transform of movies images</p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./images/Weather.jpg" alt="">
+                <div class="overlay">
+                    <h3>Weather Application</h3>
+                    <p>Check the select location weather condition</p>
+                </div>
+            </div>
+
+           
+        </div>
+
+      </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+       
+        <div class="contact-content">
+        <form class="form">
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Full Name" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" id="mobile" placeholder="Mobile Number" pattern="[0-9]{10}" required>
+            </div>
+            <div class="input-box">
+                <input type="email" id="email_id" placeholder="Email Address" required>
+            </div>
+            <div>
+                <textarea  id="message" cols="30" rows="10" placeholder="Email Subject" required></textarea>
+            </div>
+               <button class="btn" type="submit" onclick="sendMail()">Send Message</button>
+           
+        </form>
+    </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2024 by Sridhar</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><img src="./images/icons8-arrow-up-100 (1).png" alt=""></i></a>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
